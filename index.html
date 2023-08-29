@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartWatch</title>
+    <!-- LINK JS -->
+    <script src="js/scripts.js" defer></script>
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- LINK FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- LOGOS BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="Logo">
+                </a>
+            </div>
+
+            <div>
+                <nav class="menu-desktop">
+                    <ul>
+                        <li><a href="#toposite">Inicio</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#sobrenos">Sobre-nós</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="btn-comprar">
+                <a href="#produtos">
+                    <button>Garantir Agora</button>
+                </a>
+            </div>
+
+
+            <div class="btn-abir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar" id="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#toposite">Inicio</a></li><br>
+                        <li><a href="#produtos">Produtos</a></li><br>
+                        <li><a href="#sobrenos">Sobre</a></li><br>
+                        <li><a href="#">Contato</a></li><br>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt" id="toposite">
+                        <h1>Garanta seu smartwatch conosco<span>!</span></h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi aut architecto consectetur laborum repellat facere eius illum, aperiam nihil tenetur nisi voluptatibus nostrum placeat itaque quos voluptate quibusdam eligendi totam.</p>
+
+                        <div class="btn-comprar"><a href="#produtos"><button>Garantir Agora</button></a></div>
+                    </div>
+
+                    <div class="img-topo-site">
+                        <img src="images/smartwacht.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="produtos" id="produtos">
+            <div class="interface">
+                <h2 class="titulo">NOSSOS <span>PRODUTOS</span>.</h2>
+                <div class="flex">
+                    <div class="produtos-box">
+                        <i class="bi bi-smartwatch"></i>
+                        <h3>SmartWatch XS</h3>
+                        <p>SmartWatch XS rosa, o equilíbrio ideal entre moda e funcionalidade em um tamanho compacto. Notificações inteligentes e estilo elegante, tudo no seu pulso.</p>
+                        <p>Cor: Rosa</p>
+                    </div>
+                    <div class="produtos-box">
+                        <i class="bi bi-smartwatch"></i>
+                        <h3>SmartWatch X</h3>
+                        <p>SmartWatch X verde, o equilíbrio ideal entre moda e funcionalidade em um tamanho compacto. Notificações inteligentes e estilo elegante, tudo no seu pulso.</p>
+                        <p>Cor: Verde</p>
+                    </div>
+                    <div class="produtos-box">
+                        <i class="bi bi-smartwatch"></i>
+                        <h3>SmartWatch XL</h3>
+                        <p>SmartWatch XL azul, o equilíbrio ideal entre moda e funcionalidade em um tamanho compacto. Notificações inteligentes e estilo elegante, tudo no seu pulso.</p>
+                        <p>Cor: Azul</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobrenos" id="sobrenos">
+            <div class="interface">
+                <h2 class="titulo">SOBRE <span>NÓS</span>.</h2>
+                <div class="flex">
+                    <div class="img-sobrenos">
+                        <img src="images/sobrenosimg.png" alt="">
+                    </div>
+
+                    <div class="txt-sobrenos">
+                        <p>Explore o universo dos smartwatches com a <span>"SmartWatch"</span>, a loja fictícia que traz a fusão perfeita entre moda e tecnologia. Nossos smartwatches não são apenas relógios digitais; eles são uma expressão de estilo e inovação. Com designs que vão do clássico ao contemporâneo, esses dispositivos revolucionários oferecem mais do que apenas a hora certa.
+                            <br><br>
+                            Nossa coleção abrange desde opções voltadas para o condicionamento físico, com recursos avançados de monitoramento de saúde e atividades esportivas, até modelos que mantêm você conectado ao seu mundo, com notificações inteligentes e integração perfeita com smartphones. Cada smartwatch é uma combinação de artesanato refinado e tecnologia de ponta, proporcionando uma experiência única no pulso.
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="flex">
+            <div class="img-footer">
+                <a href="#toposite">
+                    <img src="images/logo.png" alt="">
+                </a>
+            </div>
+
+            <div class="txt-footer">
+                <h3>Site feito por <a href="https://github.com/guitrutar?tab=repositories" target="_blank">Guilherme Truta Rolim</a></h3>
+                <p>Feito para estudar programação e se aprofundar mais nas tecnologias <span>HTML</span> & <span>CSS</span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
