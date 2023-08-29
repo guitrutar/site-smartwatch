@@ -291,20 +291,20 @@ footer .txt-footer a {
 
 @media screen and (max-width: 1020px) {
     .interface {
-        width: 90%; /* Reduz a largura da interface para 90% */
+        width: 90%; 
     }
 
     header nav ul li {
-        padding: 0px 20px; /* Reduz o espaçamento entre os itens do menu */
+        padding: 0px 20px; 
     }
 
     .flex {
-        flex-direction: column; /* Altera o layout dos elementos flex para uma coluna */
-        gap: 40px; /* Define o espaçamento vertical entre os elementos flex */
+        flex-direction: column; 
+        gap: 40px; 
     }
 
     .img-sobrenos:hover {
-        transform: none; /* Remove a transformação de rotação */
+        transform: none;
     }
 
     .img-sobrenos img {
@@ -312,8 +312,8 @@ footer .txt-footer a {
     }
 
     .img-topo-site img {
-        max-width: 100%; /* Define a largura máxima como 100% */
-        height: auto; /* Mantém a proporção da imagem */
+        max-width: 100%; 
+        height: auto;
     }
 
     footer .flex {
